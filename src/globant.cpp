@@ -12,7 +12,7 @@
 
 using namespace std;
 
-void fill(string & output, string cl, string lastPrefix){
+void fill(string & output, string const& cl, string const& lastPrefix){
     if(lastPrefix != ""){
         output.append(lastPrefix + "." + cl);
     }
@@ -21,7 +21,7 @@ void fill(string & output, string cl, string lastPrefix){
     }
 }
 
-void parseJson(string input, string & output, int & it, string lastPrefix){
+void parseJson(string const& input, string & output, int & it, string const& lastPrefix){
     string currentLine;
     string prefix;
     bool finished = false;
