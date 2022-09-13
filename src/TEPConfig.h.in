@@ -1,3 +1,2 @@
-// the configured options and settings for Tutorial
 #define TEP_VERSION_MAJOR @TEP_VERSION_MAJOR@
 #define TEP_VERSION_MINOR @TEP_VERSION_MINOR@
